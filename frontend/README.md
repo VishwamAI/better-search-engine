@@ -50,6 +50,28 @@ REACT_APP_BACKEND_URL=http://localhost:3001
 
 This variable specifies the URL of the backend server that the frontend will communicate with.
 
+## Testing
+
+To ensure the application is functioning correctly, you can run the following tests:
+
+### Unit Tests
+
+Unit tests are used to test individual components and functions in isolation. To run the unit tests, use the following command:
+
+```
+npm test
+```
+
+This will launch the test runner in interactive watch mode, allowing you to see the results of the tests and any errors that occur.
+
+### Integration Tests
+
+Integration tests are used to test how different parts of the application work together. Currently, there are no specific integration tests set up, but you can add them using the same testing framework.
+
+### End-to-End Tests
+
+End-to-end tests simulate user interactions with the application to ensure that it behaves as expected. These tests can be added using a framework like Cypress or Selenium.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
