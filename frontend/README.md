@@ -45,7 +45,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 To run the frontend, you need to set up the following environment variables in a `.env` file in the `frontend` directory:
 
 ```
-REACT_APP_BACKEND_URL=http://localhost:3001
+REACT_APP_BACKEND_URL=https://better-search-engine-y8px8fps.devinapps.com
 ```
 
 This variable specifies the URL of the backend server that the frontend will communicate with.
