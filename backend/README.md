@@ -8,7 +8,7 @@ To set up the backend server, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kasinadhsarma/better-search-engine.git
    cd better-search-engine/backend
    ```
 
@@ -51,6 +51,10 @@ This endpoint handles search requests and returns relevant results based on the 
     ]
   }
   ```
+- **Status Codes:**
+  - `200 OK` - Successful search request
+  - `400 Bad Request` - Invalid request body
+  - `500 Internal Server Error` - Server error
 
 ## Search Algorithms
 The backend uses custom search algorithms tailored for each user group. These algorithms are defined in the `searchAlgorithm.js` file.
