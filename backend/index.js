@@ -23,7 +23,9 @@ if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
 }
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: 'https://deluxe-pudding-f77226.netlify.app'
+}));
 
 app.get('/', (req, res) => {
     res.send('Welcome to the Better Search Engine backend!');
